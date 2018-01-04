@@ -3,7 +3,7 @@ var app = express();
 
 //set port
 var port = process.env.PORT || 8080
-
+//views
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
